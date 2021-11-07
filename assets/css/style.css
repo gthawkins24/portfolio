@@ -1,0 +1,77 @@
+:root {
+    --purple: #220231;
+    --white: #fdfdfd;
+    --gray: #494949;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--purple);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+    padding: 20px 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: var(--purple);
+    position: sticky;
+    top: 0;
+}
+
+header h1 {
+    background-color: var(--gray);
+    font-weight: bold;
+    padding: 30px;
+    margin: 0;
+    font-size: 40px;
+    color: var(--white);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+header nav {
+    margin: 7px 10px;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    color: var(--white);
+    font-size: 30px;
+    padding: 10px 60px;
+    border-bottom: 5px solid var(--white);
+}
+
+/* Header Styles End */
+
+/* Hero */
+
+.hero {
+    background-image: url("../images/space-main.jpg");
+    background: auto;
+    border-bottom: 5px var(--white);
+}
+
+.hero h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    color: var(--white);
+    font-weight: bold;
+    font-size: 80px;
+}
