@@ -38,23 +38,16 @@ header h1 {
 header a {
     text-decoration: none;
     color: var(--white);
+    display: inline-block;
 }
 
 header nav {
     margin: 7px 10px;
 }
 
-header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-}
-
-header nav ul li a {
+header nav a {
     color: var(--white);
-    font-size: 30px;
+    font-size: 25px;
     padding: 10px 60px;
     border-bottom: 5px solid var(--white);
 }
@@ -65,8 +58,10 @@ header nav ul li a {
 
 .hero {
     background-image: url("../images/space-main.jpg");
-    background: auto;
+    background: cover;
+    display: flex;
     border-bottom: 5px var(--white);
+    background-position: 100%;
 }
 
 .hero h2 {
