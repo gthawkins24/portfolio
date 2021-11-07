@@ -16,8 +16,9 @@ body {
 }
 
 /* Header Styles */
+
 header {
-    padding: 20px 35px;
+    padding: 15px 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -27,12 +28,15 @@ header {
 }
 
 header h1 {
+    display: flex;
+    justify-content: flex-end;
     background-color: var(--gray);
     font-weight: bold;
-    padding: 30px;
+    padding: 10px;
     margin: 0;
-    font-size: 40px;
-    color: var(--white);
+    font-size: 60px;
+    color: var(--purple);
+    width: 30%;
 }
 
 header a {
@@ -42,13 +46,13 @@ header a {
 }
 
 header nav {
-    margin: 7px 10px;
+    margin: 50px 10px 0px 5px;
 }
 
 header nav a {
     color: var(--white);
     font-size: 25px;
-    padding: 10px 60px;
+    padding: 3px 35px;
     border-bottom: 5px solid var(--white);
 }
 
@@ -57,14 +61,16 @@ header nav a {
 /* Hero */
 
 .hero {
-    background-image: url("../images/space-main.jpg");
-    background: cover;
     display: flex;
-    border-bottom: 5px var(--white);
-    background-position: 100%;
+    background-image: url("../images/space-main.jpg");
+    background-size: auto;
+    height: 400px;
+    
 }
 
 .hero h2 {
+    display: flex;
+    justify-content: flex-end;
     font-family: Helvetica, Arial, sans-serif;
     color: var(--white);
     font-weight: bold;
