@@ -37,14 +37,13 @@ header h1 {
     margin: 0;
     font-size: 60px;
     color: var(--purple);
-    width: 30%;
+    width: 10%;
     flex: 1;
 }
 
 header a {
     text-decoration: none;
     color: var(--white);
-    display: inline-block;
 }
 
 header nav {
@@ -93,8 +92,7 @@ header nav a {
 
 .about-me-block {
     display: inline-flex;
-    
-}
+    }
 .main-body {
     display: flex;
     flex-direction: column;
@@ -102,11 +100,10 @@ header nav a {
 }
 .about-me-title {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
     margin: 15px;
     border-right: solid var(--white);
     padding: 5px;
-    flex: 2 30%;
 }
 
 .main-body h3 {
@@ -124,25 +121,18 @@ header nav a {
     flex: 2 70%;
 }
 
-.about-me-content {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    color: var(--white);
-    padding: 20px;
-    flex: 2 70%;
-}
-
 .surf-report-box {
     display: flex;
-    flex-direction: column;
     align-items: flex-end;
     color: var(--white);
     padding: 20px;
-    flex: 2 70%;
+    margin: 20px;
+    flex: 2 70% 10%;
     background-image: url("../images/stack.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
+    height: 600px;
+    width: 1200px;
 }
 
 .led-wall-box {
@@ -151,13 +141,10 @@ header nav a {
     color: var(--white);
     padding: 20px;
     flex: 2 70%;
+    margin: 20px;
     background-image: url("../images/led.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
-}
-
-.work-content h4 {
-    font-size: 35px;
 }
 
 .surf-report {
@@ -171,7 +158,6 @@ header nav a {
 .work-block {
     display: flex;
     flex-direction: column;
-
 }
 
 /*End About Me*/
