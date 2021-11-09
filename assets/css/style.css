@@ -93,11 +93,13 @@ header nav a {
 .about-me-block {
     display: inline-flex;
     }
+
 .main-body {
     display: flex;
     flex-direction: column;
     align-content: flex-start;
 }
+
 .about-me-title {
     display: flex;
     flex-direction: column;
@@ -130,9 +132,7 @@ header nav a {
     flex: 2 70% 10%;
     background-image: url("../images/stack.jpg");
     background-size: 100%;
-    background-repeat: no-repeat;
-    height: 600px;
-    width: 1200px;
+    background-repeat: no-repeat;    
 }
 
 .led-wall-box {
@@ -158,6 +158,8 @@ header nav a {
 .work-block {
     display: flex;
     flex-direction: column;
+    width: 70%;
+    height: 30%;
 }
 
 /*End About Me*/
