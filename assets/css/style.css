@@ -8,7 +8,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    list-style: none;
     text-decoration: none;
 }
 
@@ -18,7 +17,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-/* Header Styles */
+/* Header Styles START*/
 
 header {
     display: flex;
@@ -26,6 +25,7 @@ header {
     padding: 10px 0px 10px;
     background-color: var(--purple);
     position: sticky;
+    border-bottom: 10px solid var(--gray);
     top: 0;
 }
 
@@ -38,7 +38,7 @@ header h1 {
     align-items: flex-end;
 }
 
-header h1 a{
+header h1 a {
     margin: auto 5px auto;
     font-size: 48px;
     color: var(--white);
@@ -58,9 +58,9 @@ header nav a {
     font-size: 20px;
 }
 
-/* Header Styles End */
+/* Header Styles END */
 
-/* Hero Styles Start */
+/* Hero Styles START */
 
 .hero {
     display: flex;
@@ -82,7 +82,7 @@ header nav a {
     padding: 5px;
 }
 
-/* Hero Styles End*/
+/* Hero Styles END*/
 
 /* About Me Section Start*/
 
@@ -124,9 +124,9 @@ header nav a {
     margin: 25px;
 }
 
-/* About me Section End */
+/* About me Section END */
 
-/* Work Block */
+/* Work Block START */
 
 .work-title {
     display: flex;
@@ -138,12 +138,12 @@ header nav a {
     flex: 80%;
     flex-direction: row;
     margin: 10px;
+    padding: 10px;
 }
 
-.surf-report-box h3{
-    display: flex;
-    justify-content: flex-end;
-}
+/* Work Block END */
+
+/* Surf Report Box START */
 
 .surf-report-box {
     display: flex;
@@ -152,62 +152,198 @@ header nav a {
     background-size: 100%;
     background-repeat: no-repeat;
     height: 400px;
+    margin-bottom: 20px;
+    border: 5px solid var(--gray);
 }
+
+.surf-report {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 25px;
+    line-height: 1.25;
+}
+
+.surf-report h4 {
+    font-size: 38px;
+    background-color: var(--gray)
+}
+
+.surf-report p {
+    font-size: 20px;
+    background-color: var(--gray)}
+
+/* Surf Report Box END */
+
+/* Work Row 2 (led-wall, calculator) START */
 
 .work-row-2 {
     display: flex;
+    justify-content: space-evenly;
     flex: 100%;
     flex-direction: row;
-    height: 350px;
+    height: 250px;
+    margin-bottom: 20px;
 }
+
+/* LED Wall Box START */
 
 .led-wall-box {
     display: flex;
     height: 250px;
+    width: 50%;
     color: var(--white);
     background-image: url("../images/led.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
+    margin-right: 20px;
+    border: 5px solid var(--gray);
 }
 
 .led-wall {
-    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 25px;
+    line-height: 1.25;
 }
+
+.led-wall h4 {
+    font-size: 38px;
+    background-color: var(--gray)
+}
+
+.led-wall p {
+    font-size: 20px;
+    background-color: var(--gray)}
+
+/* LED Wall Box END */
+
+/* Calculator Box START */
 
 .calculator-box {
     display: flex;
-    height: 250px;
+    width: 50%;
     color: var(--white);
     background-image: url("../images/calculator.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
+    border: 5px solid var(--gray);
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 25px;
+    line-height: 1.25;
+}
+
+.calculator h4 {
+    font-size: 38px;
+    background-color: var(--gray)
+}
+
+.calculator p {
+    font-size: 20px;
+    background-color: var(--gray)}
+
+/* Calculator Box END */
+
+/* Work Row 2 (led-wall, calculator) END */
+
+/* Work Row 4 (pastel, buddy) START */
+
+.work-row-3 {
+    display: flex;
+    height: 250px;
 }
 
 .pastel-box {
+    display: flex;
+    width: 50%;
     color: var(--white);
     background-image: url("../images/puzzle.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
+    margin-right: 20px;
+    border: 5px solid var(--gray);
 }
 
+.pastel {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 25px;
+    line-height: 1.25;
+}
+
+.pastel h4 {
+    font-size: 38px;
+    background-color: var(--gray)
+}
+
+.pastel p {
+    font-size: 20px;
+    background-color: var(--gray)}
+
+/* Pastel Box END*/
+
+/* Buddy Box START */
 .buddy-box {
+    display: flex;
+    width: 50%;
     color: var(--white);
     background-image: url("../images/runbuddy.png");
     background-size: 100%;
     background-repeat: no-repeat;
+    border: 5px solid var(--gray);
 }
 
-.work-row-3 {
+.buddy {
     display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 25px;
+    line-height: 1.25;
 }
 
-/* Work Block End */
+.buddy h4 {
+    font-size: 38px;
+    background-color: var(--gray)
+}
 
-.resume-block {
+.buddy p {
+    font-size: 20px;
+    background-color: var(--gray)}
+
+/* Buddy Box END */
+
+/* Work Block END */
+
+/* Contact Me START */
+
+.contact-me-block {
     display: flex;
     flex-direction: row;
-    padding: 10px 0px 10px;
     background-color: var(--purple);
-    position: sticky;
-    top: 0;
 }
+
+.contact-me-title {
+    display: flex;
+    flex: 20%;
+    flex-direction: row;
+    justify-content: flex-end;
+    border-right: solid 3px var(--white);
+}
+
+.contact-info-block {
+    display: flex;
+    flex: 80%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contact-me-block 
+
+/* Contact Me END */
