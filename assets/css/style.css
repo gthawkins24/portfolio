@@ -135,6 +135,14 @@ header nav a {
 
 .work-block {
     flex: 80%;
+    flex-direction: row;
+}
+
+.surf-report-box h3{
+    display: flex;
+    flex: 20%;
+    justify-content: flex-end;
+    padding: 0px 10px;
 }
 
 .surf-report-box {
