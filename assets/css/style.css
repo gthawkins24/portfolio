@@ -23,7 +23,6 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     padding: 10px 0px 10px;
     background-color: var(--purple);
     position: sticky;
@@ -65,10 +64,12 @@ header nav a {
 
 .hero {
     display: flex;
+    flex: 100%;
     justify-content: flex-end;
     background-image: url("../images/space-main.jpg");
     background-size: 100%;
     background-repeat: no-repeat; 
+    width: 100%;
 }
 
 .hero h2 {
@@ -83,24 +84,17 @@ header nav a {
 
 /* Hero Styles End*/
 
+/* About Me Section Start*/
+
 .main-body {
     display: flex;
-}
-
-.about-me-title{
+    flex-direction: column;
 }
 
 .about-me-block {
-    display: inline-flex;
-    }
-
-.main-body {
-    flex-direction: column;
-}
-
-.about-me-title {
-    flex-direction: column;
-    border-right: solid var(--white);
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
 }
 
 .main-body h3 {
@@ -108,19 +102,49 @@ header nav a {
     color: var(--white);
 }
 
+.about-me-title{
+    display: flex;
+    flex-direction: row;
+    flex: 20%;
+    justify-content: flex-start;
+    border-right: solid 3px var(--white);
+}
+
+.about-me-title h3{
+    display: flex;
+    flex: 20%;
+    justify-content: flex-end;
+    padding: 0px 10px;
+}
+
 .about-me-content {
-    flex-direction: column;
-    align-items: flex-end;
+    flex: 80%;
     color: var(--white);
-    flex: 2 70%;
+    flex-wrap: wrap;
+    line-height: 1.25;
+    padding: 25px;
+}
+
+/* About me Section End */
+
+.work-title {
+    display: flex;
+    flex-direction: row;
+    flex: 20%;
+}
+
+.work-block {
+    flex: 80%;
 }
 
 .surf-report-box {
-    align-items: flex-end;
+    display: flex;
     color: var(--white);
     background-image: url("../images/stack.jpg");
     background-size: 100%;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;
+    flex: 80%;
+    margin: 25px;
 }
 
 .led-wall-box {
@@ -130,34 +154,28 @@ header nav a {
     background-repeat: no-repeat;
 }
 
-.surf-report {
-    background-color: var(--gray);
+.led-wall-box {
+    margin: 25px;
 }
 
-.led-wall {
-    background-color: var(--gray);
-}
 
-.work-block {
-    flex-direction: column;
-} 
 
-.about-me-block {
-    flex-direction: row;
-    flex-wrap: wrap;
-}
 
-.about-me-title {
-}
 
-.about-me-content {
-}
+
+
+
+
+
+
 
 #tutor-flex-container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+
 
 .flex-item {
 }
