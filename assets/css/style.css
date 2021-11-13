@@ -18,7 +18,6 @@ body {
 }
 
 /* Header Styles START*/
-
 header {
     display: flex;
     flex-direction: row;
@@ -57,11 +56,9 @@ header nav a {
     margin: 10px 10px 10px 10px;
     font-size: 20px;
 }
-
 /* Header Styles END */
 
 /* Hero Styles START */
-
 .hero {
     display: flex;
     flex: 100%;
@@ -81,11 +78,9 @@ header nav a {
     background-color: var(--gray);
     padding: 5px;
 }
-
 /* Hero Styles END*/
 
 /* About Me Section Start*/
-
 .main-body {
     display: flex;
     flex-direction: column;
@@ -123,11 +118,9 @@ header nav a {
     line-height: 1.25;
     margin: 25px;
 }
-
 /* About me Section END */
 
 /* Work Block START */
-
 .work-title {
     display: flex;
     flex-direction: row;
@@ -138,13 +131,12 @@ header nav a {
     flex: 80%;
     flex-direction: row;
     margin: 10px;
+    margin-top: 20px;
     padding: 10px;
 }
-
 /* Work Block END */
 
 /* Surf Report Box START */
-
 .surf-report-box {
     display: flex;
     color: var(--white);
@@ -172,11 +164,9 @@ header nav a {
 .surf-report p {
     font-size: 20px;
     background-color: var(--gray)}
-
 /* Surf Report Box END */
 
 /* Work Row 2 (led-wall, calculator) START */
-
 .work-row-2 {
     display: flex;
     justify-content: space-evenly;
@@ -187,7 +177,6 @@ header nav a {
 }
 
 /* LED Wall Box START */
-
 .led-wall-box {
     display: flex;
     height: 250px;
@@ -216,11 +205,9 @@ header nav a {
 .led-wall p {
     font-size: 20px;
     background-color: var(--gray)}
-
 /* LED Wall Box END */
 
 /* Calculator Box START */
-
 .calculator-box {
     display: flex;
     width: 50%;
@@ -247,16 +234,14 @@ header nav a {
 .calculator p {
     font-size: 20px;
     background-color: var(--gray)}
-
 /* Calculator Box END */
-
 /* Work Row 2 (led-wall, calculator) END */
 
 /* Work Row 4 (pastel, buddy) START */
-
 .work-row-3 {
     display: flex;
     height: 250px;
+    margin-bottom: 20px;
 }
 
 .pastel-box {
@@ -316,34 +301,44 @@ header nav a {
 .buddy p {
     font-size: 20px;
     background-color: var(--gray)}
-
 /* Buddy Box END */
-
 /* Work Block END */
 
 /* Contact Me START */
-
 .contact-me-block {
     display: flex;
     flex-direction: row;
-    background-color: var(--purple);
+    margin: 10px;
+    height: 200px;
 }
 
 .contact-me-title {
     display: flex;
-    flex: 20%;
     flex-direction: row;
+    flex: 20%;
     justify-content: flex-end;
     border-right: solid 3px var(--white);
+}
+
+.contact-me-title h3 {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 50px;
+    padding: 0px 10px;
 }
 
 .contact-info-block {
     display: flex;
     flex: 80%;
-    flex-direction: row;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--white);
+    flex-wrap: wrap;
+    line-height: 1.25;
+    margin: 0px 25px;
 }
 
-.contact-me-block 
-
+.contact-info-block h4 {
+    border-bottom: 3px solid var(--white)
+}
 /* Contact Me END */
