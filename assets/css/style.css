@@ -345,12 +345,17 @@ header nav a {
 }
 
 .contact-info-block h4 {
-    border-bottom: 3px solid var(--white);
+    border-bottom: .3vw solid var(--white);
     font-size: 1.55vw;
 }
 
+.contact-info-block h3 {
+    border-bottom: .3vw solid var(--white);
+    font-size: 3.55vw;
+}
+
 .contact-info-block a {
-    border-bottom: 3px solid var(--white);
+    border-bottom: .3px solid var(--white);
     text-decoration: none;
     color: var(--white);
     font-family: Helvetica, Arial, sans-serif;
