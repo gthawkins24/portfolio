@@ -43,6 +43,10 @@ header h1 a {
     color: var(--white);
 }
 
+a:hover {
+    background-color: var(--gray);
+}
+
 header nav {
     display: flex;
     flex: 70%;
@@ -64,7 +68,7 @@ header nav a {
     flex: 100%;
     justify-content: flex-end;
     background-image: url("../images/space-main.jpg");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat; 
     width: 100%;
 }
@@ -309,7 +313,7 @@ header nav a {
     display: flex;
     flex-direction: row;
     margin: 10px;
-    height: 200px;
+    height: 100px;
 }
 
 .contact-me-title {
@@ -340,5 +344,12 @@ header nav a {
 
 .contact-info-block h4 {
     border-bottom: 3px solid var(--white)
+}
+
+.contact-info-block a {
+    border-bottom: 3px solid var(--white);
+    text-decoration: none;
+    color: var(--white);
+    font-family: Helvetica, Arial, sans-serif;
 }
 /* Contact Me END */
