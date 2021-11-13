@@ -21,6 +21,7 @@ body {
 header {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     padding: 10px 0px 10px;
     background-color: var(--purple);
     position: sticky;
@@ -39,7 +40,7 @@ header h1 {
 
 header h1 a {
     margin: auto 5px auto;
-    font-size: 48px;
+    font-size: 3.55vw;
     color: var(--white);
 }
 
@@ -58,13 +59,14 @@ header nav a {
     border-bottom: 3px solid var(--white);
     padding: 10px 5px 5px 5px;
     margin: 10px 10px 10px 10px;
-    font-size: 20px;
+    font-size: 1.55vw;
 }
 /* Header Styles END */
 
 /* Hero Styles START */
 .hero {
     display: flex;
+    flex-wrap: wrap;
     flex: 100%;
     justify-content: flex-end;
     background-image: url("../images/space-main.jpg");
@@ -77,7 +79,7 @@ header nav a {
     font-family: Helvetica, Arial, sans-serif;
     color: var(--white);
     font-weight: bold;
-    font-size: 75px;
+    font-size: 4.55vw;
     margin: 175px 10px 10px;
     background-color: var(--gray);
     padding: 5px;
@@ -97,7 +99,7 @@ header nav a {
 }
 
 .main-body h3 {
-    font-size: 50px;
+    font-size: 3.55vw;
     color: var(--white);
 }
 
@@ -145,7 +147,7 @@ header nav a {
     display: flex;
     color: var(--white);
     background-image: url("../images/stack.jpg");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
     margin-bottom: 20px;
@@ -161,12 +163,12 @@ header nav a {
 }
 
 .surf-report h4 {
-    font-size: 38px;
+    font-size: 2.55vw;
     background-color: var(--gray)
 }
 
 .surf-report p {
-    font-size: 20px;
+    font-size: 1.55vw;
     background-color: var(--gray)}
 /* Surf Report Box END */
 
@@ -187,7 +189,7 @@ header nav a {
     width: 50%;
     color: var(--white);
     background-image: url("../images/led.jpg");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     margin-right: 20px;
     border: 5px solid var(--gray);
@@ -202,12 +204,12 @@ header nav a {
 }
 
 .led-wall h4 {
-    font-size: 38px;
+    font-size: 2.55vw;
     background-color: var(--gray)
 }
 
 .led-wall p {
-    font-size: 20px;
+    font-size: 1.55vw;
     background-color: var(--gray)}
 /* LED Wall Box END */
 
@@ -217,7 +219,7 @@ header nav a {
     width: 50%;
     color: var(--white);
     background-image: url("../images/calculator.jpg");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     border: 5px solid var(--gray);
 }
@@ -231,12 +233,12 @@ header nav a {
 }
 
 .calculator h4 {
-    font-size: 38px;
+    font-size: 2.55vw;
     background-color: var(--gray)
 }
 
 .calculator p {
-    font-size: 20px;
+    font-size: 1.55vw;
     background-color: var(--gray)}
 /* Calculator Box END */
 /* Work Row 2 (led-wall, calculator) END */
@@ -253,7 +255,7 @@ header nav a {
     width: 50%;
     color: var(--white);
     background-image: url("../images/puzzle.jpg");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     margin-right: 20px;
     border: 5px solid var(--gray);
@@ -268,12 +270,12 @@ header nav a {
 }
 
 .pastel h4 {
-    font-size: 38px;
+    font-size: 2.55vw;
     background-color: var(--gray)
 }
 
 .pastel p {
-    font-size: 20px;
+    font-size: 1.55vw;
     background-color: var(--gray)}
 
 /* Pastel Box END*/
@@ -284,7 +286,7 @@ header nav a {
     width: 50%;
     color: var(--white);
     background-image: url("../images/runbuddy.png");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     border: 5px solid var(--gray);
 }
@@ -298,12 +300,12 @@ header nav a {
 }
 
 .buddy h4 {
-    font-size: 38px;
+    font-size: 2.55vw;
     background-color: var(--gray)
 }
 
 .buddy p {
-    font-size: 20px;
+    font-size: 1vw;
     background-color: var(--gray)}
 /* Buddy Box END */
 /* Work Block END */
@@ -327,7 +329,7 @@ header nav a {
 .contact-me-title h3 {
     display: flex;
     justify-content: flex-end;
-    font-size: 50px;
+    font-size: 3.55vw;
     padding: 0px 10px;
 }
 
@@ -343,7 +345,8 @@ header nav a {
 }
 
 .contact-info-block h4 {
-    border-bottom: 3px solid var(--white)
+    border-bottom: 3px solid var(--white);
+    font-size: 1.55vw;
 }
 
 .contact-info-block a {
@@ -351,5 +354,6 @@ header nav a {
     text-decoration: none;
     color: var(--white);
     font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.55vw;
 }
 /* Contact Me END */
