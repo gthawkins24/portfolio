@@ -170,10 +170,12 @@ header nav a {
 .surf-report h4 {
     font-size: 2.55vw;
     background-color: var(--gray);
+    padding: .4rem;
 }
 
 .surf-report p {
     font-size: 1.55vw;
+    padding: .4rem;
     background-color: var(--gray)}
 /* Surf Report Box END */
 
@@ -210,11 +212,13 @@ header nav a {
 
 .led-wall h4 {
     font-size: 2.55vw;
+    padding: .4rem;
     background-color: var(--gray)
 }
 
 .led-wall p {
     font-size: 1.55vw;
+    padding: .4rem;
     background-color: var(--gray)}
 /* LED Wall Box END */
 
@@ -239,11 +243,13 @@ header nav a {
 
 .calculator h4 {
     font-size: 2.55vw;
+    padding: .4rem;
     background-color: var(--gray)
 }
 
 .calculator p {
     font-size: 1.55vw;
+    padding: .4rem;
     background-color: var(--gray)}
 /* Calculator Box END */
 /* Work Row 2 (led-wall, calculator) END */
@@ -276,11 +282,13 @@ header nav a {
 
 .pastel h4 {
     font-size: 2.55vw;
+    padding: .4rem;
     background-color: var(--gray)
 }
 
 .pastel p {
     font-size: 1.55vw;
+    padding: .4rem;
     background-color: var(--gray)}
 
 /* Pastel Box END*/
@@ -306,11 +314,13 @@ header nav a {
 
 .buddy h4 {
     font-size: 2.55vw;
+    padding: .4rem;
     background-color: var(--gray)
 }
 
 .buddy p {
-    font-size: 1vw;
+    font-size: 1.55vw;
+    padding: .4rem;
     background-color: var(--gray)}
 /* Buddy Box END */
 /* Work Block END */
@@ -368,3 +378,18 @@ header nav a {
     font-size: 1.55vw;
 }
 /* Contact Me END */
+
+/* Resume START */
+.resume-block {
+    display: flex;
+    display: inline-block;
+    height: 800px;
+    width: 100%;
+    padding: 25px 15%;
+}
+
+.resume-block iframe {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
