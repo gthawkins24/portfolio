@@ -141,7 +141,7 @@ header nav a {
     flex: 80%;
     flex-direction: row;
     margin: .6%;
-    margin-top: 20px;
+    margin-top: 1%;
     padding: 10px;
 }
 /* Work Block END */
@@ -354,7 +354,7 @@ header nav a {
 .contact-me-block {
     display: flex;
     flex-direction: row;
-    margin: .6%;
+    margin: .6% .6% 5% .6%;
 }
 
 .contact-me-title {
@@ -476,13 +476,13 @@ header nav a {
     }
 
     .work-block p {
-        font-size: 3vw;
+        font-size: 2.8vw;
         padding: 0rem .4rem;
     }
 
     .contact-info-block h4 {
         border-bottom: .3vw solid var(--white);
-        font-size: 2.0vw;
+        font-size: 2.5vw;
     }
 
     .contact-info-block a {
@@ -490,6 +490,6 @@ header nav a {
         text-decoration: none;
         color: var(--white);
         font-family: Helvetica, Arial, sans-serif;
-        font-size: 2.0vw;
+        font-size: 2.5vw;
     }
 }
