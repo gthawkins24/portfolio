@@ -354,7 +354,7 @@ header nav a {
 .contact-me-block {
     display: flex;
     flex-direction: row;
-    margin: .6% .6% 5% .6%;
+    margin: .6% .6% 10% .6%;
 }
 
 .contact-me-title {
