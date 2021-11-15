@@ -22,7 +22,7 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 10px 0px 10px;
+    padding: 2% 0px 2%;
     background-color: var(--purple);
     position: sticky;
     border-bottom: 10px solid var(--gray);
@@ -96,7 +96,7 @@ header nav a {
 .about-me-block {
     display: flex;
     flex-direction: row;
-    margin: 10px;
+    margin: .6%;
 }
 
 .main-body h3 {
@@ -104,7 +104,7 @@ header nav a {
     color: var(--white);
 }
 
-.about-me-title{
+.about-me-title {
     display: flex;
     flex-direction: row;
     flex: 20%;
@@ -112,7 +112,7 @@ header nav a {
     border-right: solid 3px var(--white);
 }
 
-.about-me-title h3{
+.about-me-title h3 {
     display: flex;
     justify-content: flex-end;
     padding: 0px 10px;
@@ -123,7 +123,9 @@ header nav a {
     color: var(--white);
     flex-wrap: wrap;
     line-height: 1.25;
-    margin: 25px;
+    margin: .6%;
+    font-size: 1.5vw;
+    padding: .5%;
 }
 /* About me Section END */
 
@@ -132,12 +134,13 @@ header nav a {
     display: flex;
     flex-direction: row;
     flex: 20%;
+    margin: .6%;
 }
 
 .work-block {
     flex: 80%;
     flex-direction: row;
-    margin: 10px;
+    margin: .6%;
     margin-top: 20px;
     padding: 10px;
 }
@@ -351,8 +354,7 @@ header nav a {
 .contact-me-block {
     display: flex;
     flex-direction: row;
-    margin: 10px;
-    height: 100%;
+    margin: .6%;
 }
 
 .contact-me-title {
@@ -379,17 +381,13 @@ header nav a {
     color: var(--white);
     flex-wrap: wrap;
     line-height: 1.25;
-    margin: 0px 25px;
+    margin: 0px .6%;
+    padding: .6%;
 }
 
 .contact-info-block h4 {
     border-bottom: .3vw solid var(--white);
     font-size: 1.55vw;
-}
-
-.contact-info-block h3 {
-    border-bottom: .3vw solid var(--white);
-    font-size: 2.55vw;
 }
 
 .contact-info-block a {
@@ -412,5 +410,86 @@ header nav a {
     width: 100%;
     padding: 5% 25%;
 }
-
 /* Resume END */
+
+/* Media Query for Tablets and Smaller START */
+@media screen and (max-width: 768px) {
+
+    header h1 a {
+        margin: auto 1% auto;
+        font-size: 4.35vw;
+        color: var(--white);
+    }
+
+    .about-me-content {
+        font-size: 2.5vw;
+    }
+
+    header nav a {
+        font-size: 3.0vw;
+    }
+
+    .work-block h4 {
+        font-size: 4vw;
+        padding: 0rem .4rem;
+    }
+
+    .work-block p {
+        font-size: 3vw;
+        padding: 0rem .4rem;
+    }
+
+    .contact-info-block h4 {
+        border-bottom: .3vw solid var(--white);
+        font-size: 2.0vw;
+    }
+
+    .contact-info-block a {
+        border-bottom: .3vw solid var(--white);
+        text-decoration: none;
+        color: var(--white);
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 2.0vw;
+    }
+}
+
+/* Media Query for Tablets and Smaller START */
+@media screen and (max-width: 390px) {
+
+    header h1 a {
+        margin: auto 1% auto;
+        font-size: 4.35vw;
+        color: var(--white);
+    }
+
+    .about-me-content {
+        font-size: 2.5vw;
+    }
+
+    header nav a {
+        font-size: 3.0vw;
+    }
+
+    .work-block h4 {
+        font-size: 4vw;
+        padding: 0rem .4rem;
+    }
+
+    .work-block p {
+        font-size: 3vw;
+        padding: 0rem .4rem;
+    }
+
+    .contact-info-block h4 {
+        border-bottom: .3vw solid var(--white);
+        font-size: 2.0vw;
+    }
+
+    .contact-info-block a {
+        border-bottom: .3vw solid var(--white);
+        text-decoration: none;
+        color: var(--white);
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 2.0vw;
+    }
+}
