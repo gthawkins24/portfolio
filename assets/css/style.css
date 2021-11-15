@@ -157,6 +157,7 @@ header nav a {
     margin-bottom: 20px;
     border: 5px solid var(--gray);
     position: relative;
+    opacity: .6;
 }
 
 .surf-report {
@@ -180,7 +181,7 @@ header nav a {
 }
 
 .surf-report-box:hover {
-    opacity: .6;
+    opacity: 1;
 }
 /* Surf Report Box END */
 
@@ -205,6 +206,7 @@ header nav a {
     background-repeat: no-repeat;
     margin-right: 20px;
     border: 5px solid var(--gray);
+    opacity: .6;
 }
 
 .led-wall {
@@ -228,7 +230,7 @@ header nav a {
 }
 
 .led-wall-box:hover {
-    opacity: .6;
+    opacity: 1;
 }
 /* LED Wall Box END */
 
@@ -241,6 +243,7 @@ header nav a {
     background-size: cover;
     background-repeat: no-repeat;
     border: 5px solid var(--gray);
+    opacity: .6;
 }
 
 .calculator {
@@ -264,7 +267,7 @@ header nav a {
 }
 
 .calculator-box:hover {
-    opacity: .6;
+    opacity: 1;
 }
 /* Calculator Box END */
 /* Work Row 2 (led-wall, calculator) END */
@@ -285,6 +288,7 @@ header nav a {
     background-repeat: no-repeat;
     margin-right: 20px;
     border: 5px solid var(--gray);
+    opacity: .6;
 }
 
 .pastel {
@@ -308,7 +312,7 @@ header nav a {
 }
 
 .pastel-box:hover {
-    opacity: .6;
+    opacity: 1;
 }
 
 /* Pastel Box END*/
@@ -322,6 +326,7 @@ header nav a {
     background-size: cover;
     background-repeat: no-repeat;
     border: 5px solid var(--gray);
+    opacity: .6;
 }
 
 .buddy {
@@ -345,7 +350,7 @@ header nav a {
 }
 
 .buddy-box:hover {
-    opacity: .6;
+    opacity: 1;
 }
 /* Buddy Box END */
 /* Work Block END */
