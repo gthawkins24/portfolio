@@ -153,10 +153,7 @@ header nav a {
     height: 400px;
     margin-bottom: 20px;
     border: 5px solid var(--gray);
-}
-
-.surf-report-box::after {
-    background-color: red;
+    position: relative;
 }
 
 .surf-report {
@@ -176,7 +173,12 @@ header nav a {
 .surf-report p {
     font-size: 1.55vw;
     padding: .4rem;
-    background-color: var(--gray)}
+    background-color: var(--gray)
+}
+
+.surf-report-box:hover {
+    opacity: .6;
+}
 /* Surf Report Box END */
 
 /* Work Row 2 (led-wall, calculator) START */
@@ -219,7 +221,12 @@ header nav a {
 .led-wall p {
     font-size: 1.55vw;
     padding: .4rem;
-    background-color: var(--gray)}
+    background-color: var(--gray)
+}
+
+.led-wall-box:hover {
+    opacity: .6;
+}
 /* LED Wall Box END */
 
 /* Calculator Box START */
@@ -250,7 +257,12 @@ header nav a {
 .calculator p {
     font-size: 1.55vw;
     padding: .4rem;
-    background-color: var(--gray)}
+    background-color: var(--gray)
+}
+
+.calculator-box:hover {
+    opacity: .6;
+}
 /* Calculator Box END */
 /* Work Row 2 (led-wall, calculator) END */
 
@@ -289,7 +301,12 @@ header nav a {
 .pastel p {
     font-size: 1.55vw;
     padding: .4rem;
-    background-color: var(--gray)}
+    background-color: var(--gray)
+}
+
+.pastel-box:hover {
+    opacity: .6;
+}
 
 /* Pastel Box END*/
 
@@ -321,7 +338,12 @@ header nav a {
 .buddy p {
     font-size: 1.55vw;
     padding: .4rem;
-    background-color: var(--gray)}
+    background-color: var(--gray)
+}
+
+.buddy-box:hover {
+    opacity: .6;
+}
 /* Buddy Box END */
 /* Work Block END */
 
